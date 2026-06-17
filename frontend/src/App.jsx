@@ -11,6 +11,16 @@ export const App = () => {
         <li>Natural Language Processing</li>
         <li>Computer Vision</li>
       </ul>
+      <form>
+        <h4>Contact Form</h4>
+        <input type="text" placeholder="Name" />
+        <br />
+        <input type="email" placeholder="Email" />
+        <br/>
+        <textarea placeholder="Message"></textarea>
+        <br/>
+        <button type="submit">Submit</button>
+      </form>
     </div>
   );
 };
